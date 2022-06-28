@@ -43,12 +43,14 @@ a{
 button {
     padding: 3px 8px;
     border-radius: 5px;
-    width: 70px;
+    width: 100px;
+    height: 30px;
     margin-top: 2px;
     margin-bottom: 0px;
 }
 button.sign_up{
     background: #3882F6;
+    font-weight: bold;
     border: 1px solid #3882F6;
     color: white;
 }
