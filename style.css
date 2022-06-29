@@ -9,6 +9,8 @@ body{
 }
 
 
+
+
 /* header section css */
 
 .header{
@@ -102,6 +104,7 @@ img{
     align-items: center;
     text-align: center;
     line-height: normal;
+    margin-bottom: 90px;
 }
 .content-title{
     font-size: 36px;
@@ -130,4 +133,35 @@ img{
 .content-text{
     margin-top: 3px;
     flex-wrap: wrap;
+}
+
+/* quote section */
+
+.quote{
+    background-color: #E5E7EB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote-text{
+    width: 900px;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 90px;
+    flex: 50%;
+    text-align: left;
+}
+.quote-author{
+    width: 700px;
+    font-size: 25px;
+    color: #1F2937;
+    font-weight: 900;
+    flex: 50%;
+    text-align: right;
+    margin-bottom: 90px;
 }
